@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL || "https://bizflow-d0vt.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL || "https://advanced-wa.onrender.com";
 
 let onUnauthorized = null;
 export const setOnUnauthorized = (cb) => {
