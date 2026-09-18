@@ -14,7 +14,7 @@ const app = express();
 app.use(cors());
 app.use(express.json({ limit: "2mb" }));
 app.use(morgan("dev"));
-app.use(express.urlencoded())
+app.use(express.urlencoded({ extended: true }));
 
 // routes
 app.get("/", (req, res) => res.send("WhatsApp Order Manager API Running ✅"));
