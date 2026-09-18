@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body { @apply bg-ink-950 text-zinc-100; }
+
+::selection { background: rgba(37, 211, 102, 0.25); }
+
+a { @apply text-zinc-100; }
+
+input::placeholder,
+textarea::placeholder { @apply text-zinc-500; }
